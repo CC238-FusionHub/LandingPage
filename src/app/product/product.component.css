@@ -1,0 +1,29 @@
+.blue-light {
+    background-color: #e6f7ff; /* Azul claro */
+  }
+  
+  .blue-medium {
+    background-color: #b3d9ff; /* Azul medio */
+  }
+  
+  .blue-dark {
+    background-color: #66a3ff; /* Azul oscuro */
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .column img {
+    max-width: 100%; /* Reducir el ancho máximo de las imágenes */
+    height: auto;
+    max-height: 300px; /* Establecer un máximo de altura si es necesario */
+  }

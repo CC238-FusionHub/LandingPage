@@ -1,0 +1,12 @@
+span {
+    display: block;
+    width: 100%; /* Ancho completo de la pantalla */
+    height: 90px; /* Altura de 80 píxeles */
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    line-height: 90px; /* Alinea verticalmente el texto en el centro */
+    padding: 0; /* Elimina el espacio interno */
+    margin: 0; /* Elimina los márgenes */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+  }

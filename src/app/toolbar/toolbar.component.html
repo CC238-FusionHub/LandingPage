@@ -1,0 +1,45 @@
+<mat-toolbar>
+    <div>
+      <button mat-icon-button routerLink="/home">
+        <mat-icon>receipt</mat-icon>
+      </button>
+      <span>Recipe Realm</span>
+    </div>
+    <div *ngIf="!isMobileView; else menu">
+      <button mat-icon-button routerLink="/product">
+        <mat-icon>info</mat-icon>
+      </button>
+      <span>Producto</span>
+      <button mat-icon-button routerLink="/us">
+        <mat-icon>share</mat-icon>
+      </button>
+      <span>Nosotros</span>
+      <button mat-icon-button routerLink="/download">
+        <mat-icon>shop</mat-icon>
+      </button>
+      <span>Descargar</span>
+    </div>
+    <ng-template #menu>
+      <button mat-icon-button [matMenuTriggerFor]="menuOptions">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menuOptions="matMenu">
+        <button mat-menu-item routerLink="/product">
+          <mat-icon>info</mat-icon>
+          <span>Producto</span>
+        </button>
+        <button mat-menu-item routerLink="/us">
+          <mat-icon>share</mat-icon>
+          <span>Nosotros</span>
+        </button>
+        <button mat-menu-item routerLink="/download">
+          <mat-icon>shop</mat-icon>
+          <span>Descargar</span>
+        </button>
+      </mat-menu>
+    </ng-template>
+  </mat-toolbar>
+  
+  
+  
+  

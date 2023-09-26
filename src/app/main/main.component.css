@@ -1,0 +1,67 @@
+.mat-card {
+    width: 100%; /* Ajustar el ancho según tus necesidades */
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px; /* Agregar espacio alrededor del contenido */
+    margin-bottom: 5px;
+  }
+  
+  .left-content {
+    width: 50%; /* Ocupar la mitad del ancho cuando la pantalla sea ancha */
+    text-align: center; /* Centrar el contenido horizontalmente */
+  }
+  
+  .right-content {
+    width: 50%; /* Ocupar la mitad del ancho cuando la pantalla sea ancha */
+    text-align: center; /* Centrar el contenido horizontalmente */
+  }
+  
+  .title {
+    font-size: 24px; /* Tamaño de letra del título */
+    font-weight: bold;
+    margin-bottom: 10px; /* Separación entre el título y el texto */
+  }
+  
+  .text-content {
+    margin-bottom: 10px; /* Separación entre bloques de texto */
+  }
+  
+  .download-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  
+  .button-text {
+    font-weight: bold;
+  }
+  
+  /* Estilos cuando se pasa el ratón sobre el botón */
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para pantallas más pequeñas */
+  @media (max-width: 600px) {
+    .card-content {
+      flex-direction: column; /* Cambiar la disposición a columna */
+    }
+    
+    .left-content,
+    .right-content {
+      width: 100%; /* Ocupar todo el ancho en pantallas pequeñas */
+    }
+  
+    img {
+      max-width: 100%; /* Hacer que la imagen se ajuste al ancho de la pantalla */
+      height: auto; /* Mantener la proporción de aspecto de la imagen */
+    }
+  }

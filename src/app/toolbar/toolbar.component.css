@@ -1,0 +1,18 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e2a38;
+    color: white;
+  }
+  
+  .mat-toolbar > div {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones en el segundo div */
+  }
+  
+  .mat-toolbar > div:first-of-type {
+    margin-right: auto; /* Empuja el primer div hacia la izquierda */
+  }
+  
