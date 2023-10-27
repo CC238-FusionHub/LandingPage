@@ -29,7 +29,10 @@
   }
   
   .external-image {
-    flex: 1;
+    flex: 1; /* Aumenta el tamaño de la imagen para que ocupe todo el espacio disponible */
+    display: flex; /* Habilita el modelo de caja flexible para centrar la imagen */
+    justify-content: center; /* Centra horizontalmente la imagen en el contenedor */
+    align-items: center; /* Centra verticalmente la imagen en el contenedor */
   }
   
   .external-image img {

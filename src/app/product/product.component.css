@@ -27,3 +27,8 @@
     height: auto;
     max-height: 300px; /* Establecer un máximo de altura si es necesario */
   }
+
+  .image-size {
+    width: 200px;
+    height: 1000px;
+  }
