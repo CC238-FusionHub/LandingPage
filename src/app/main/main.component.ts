@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-
+  youtube(){
+    window.location.href = 'https://youtu.be/Pa81Ly9B3H8'
+  }
 }
